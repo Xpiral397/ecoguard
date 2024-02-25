@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analysis Status</title>
+   
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #666;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      .success {
+        color: #28a745;
+      }
+
+      .processing {
+        color: #ffc107;
+      }
+
+      .error {
+        color: #dc3545;
+      }
+
+      .icon {
+        font-size: 18px;
+        margin-right: 5px;
+      }
+
+      #map {
+        height: 300px; /* Adjust the height as needed */
+        margin-top: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Analysis Status</h2>
+
+    <p>Dear {{user}},</p>
+
+    {% if status == 'success' %}
+    <p class="success">
+      <i class="fas fa-check-circle icon"></i>Your analysis for the area has
+      been completed successfully.
+    </p>
+    <p>
+      <i class="fas fa-map-marker-alt icon"></i>Coordinate: {{ coordinate }}
+    </p>
+    <p><i class="fas fa-font icon"></i>Name: {{ analysis_name }}</p>
+    <p><i class="fas fa-clock icon"></i>Started Time: {{ start_date }}</p>
+    <p><i class="fas fa-clock icon"></i>End Time: {{ end_date }}</p>
+    <p>
+      <i class="fas fa-hourglass icon"></i>Total Time Used: {{ total_time_used}}
+    </p>
+    <p>
+      <i class="fas fa-link icon"></i>Link to Dashboard: {{ dashboard_link }}
+    </p>
+    {% elif status == 'processing' %}
+    <p class="processing">
+      <i class="fas fa-spinner icon"></i>Your analysis for the area is currently
+      in progress.
+    </p>
+    <p>
+      <i class="fas fa-map-marker-alt icon"></i>Coordinate: {{ coordinate }}
+    </p>
+    <p><i class="fas fa-font icon"></i>Name: {{ analysis_name }}</p>
+    <p><i class="fas fa-clock icon"></i>Started Time: {{ start_date }}</p>
+    <p>
+      <i class="fas fa-hourglass icon"></i>Estimated Time to Finish: {{ end_date}} </p>
+    <p>
+      <i class="fas fa-link icon"></i>Link to Dashboard: {{ dashboard_link }}
+    </p>
+    {% elif status == 'error' %}
+    <p class="error">
+      <i class="fas fa-times-circle icon"></i>There was an error processing your
+      analysis for {{ analysis_name }}.
+      <p>
+        <h6 class="processing">Check What wrong, Navigate to your  <a href='#'> Dashboard</a> here </h6>
+      </p>
+
+    </p>
+    {% else %}
+    <p>Invalid status. Please check the analysis status.</p>
+    {% endif %}
+
+   
+
+    <p>Thanks you for using our analysis service.</p>
+  </body>
+</html>

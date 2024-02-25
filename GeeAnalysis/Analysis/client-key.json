@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "eco-guard",
+  "private_key_id": "25322a88f7ab909a4d93ec61e81c6fa74cc5f26a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClYhiCMg/ZkxfC\noF2rFIQ4nw7QC8AA4qS3U4wT6rb1ffrmXEltBE0L0HBkwVDEi6dWt0EYzG3bad9c\nd1isKlBDOHanzjC0zDqGb5lgiYeto1Qug/J1+yUi5uuU3LgqmsOVo8AxOylLGWts\nIYs5WEV79x0hGKZzGphNzWBskOzKIwbMzZF4huBY1UGH6hYmzerGTA9oLrommJjx\n5jYuPT3In3dQD6CFlQL8/kUMGQoL33HPuiqYxyQtHRDJXRukqx4/8lkQnMjJgSyx\n4Cc4ea7PdVScTc9ocBUrGu7NLdNLWCwc8cPTT2KqJoNEuFRvGYFh6sGeLjmZ0Q+a\nMNEx5FfLAgMBAAECggEACaSLE52coU3QxFclBFJuv9MSV4df22Kw7O7Q9jZTaEPq\nAErK4zGC1oNW56ECjGXXd225khsVSrDvxjc/3dCdG8Dr4NkxANGplei63iSWsG/w\npWz/Eumg9C8s9uHZq8OYpMhxQ82Ubkhd+ZDedRT+/tKH3xlOAdxqm0VexRBm0LBF\nyYxE/zmRAvBaEx4S9Vrb4g/f8ybgjh86CfEtGYLSs9EU4FiO6jn+P+aClVGw8Dlr\nvduAr8dfBVe0Wit0uWzCqpxmAyikqdzgQnCYdsy1LGpu1yxtBw5SWSxF0MWZV+Cb\neXmSAOEmIb32yqAsDrV9VVqYWqwYwJ1sSQTiHBgc1QKBgQDV3puT4T9NZXuiRybO\nAqjxYDTmUOD7tXaTiJ43uvYvuIcKypZ0gfi8VRJIpgEJQOY3hh+avfG5UjXbxDqi\nhqUf/48WpFNfhbZNlhDS6lzWQPueW5nU1wVQC1bDtvkBAEh1v0jFRVKSZHC26QK4\n/kfLyO6jurr414rDTVaknwH/twKBgQDF9lTWFiF+ZNOs43kfyAQQSHBgA6E9V5a9\nCK6YKInS39b9eG+bjaNSwXaONtf+hUv4Frc16swHduioIzHjnTy7u93lrOeIKQ8H\n7qdUE+HenID5k2nEoH1sZoFRqW8iEzDOiNML5rZpdthBAIrf0Tu81/Q4Po5NQB/k\n5ZzJY4mAjQKBgQCWRTNLVJkF6KhV/Whml7fc4ZxJt8pdEcOfJf8FaXhRT3aTPoU4\nl5oNujh+kyVnOxKHMNZEA/I0JG9zWw1X5QNg2E/RuORb2beeDDMF/2X7pO0m93W+\n9tXkyBLOsWGEMo63LRAUjADYm3oXCuG+2evYY/ZJVIrLDaeSUmTuhksBQQKBgGRj\n5mPnNzcUxK/Rb7RpR35Gbg6S6KrmB0B37aqmLDavYySJdffpnSCzkX7PWzvstzjp\ntCF4n91NNPFHX95w98Kwo/f8djH7uG6qXVrq9klhDpsCYcngJZraZMxX407hcofa\npURMzMaxCTv1nXehcOz0ixoWxy1vznzS4G7Utn9lAoGBANN6I21iiox9vJb7CMF+\nXoybbk/dAIDN4YBy1kOrqlxsmaBPGinksqpwW3fmXFho5hde90YwX2l4jIKR3Or2\n3zFhe51kwpLHBp0gjKb0cuyam594ufVf48NDSVotJd3vCzo6qYfGEuMQBFjRAMEu\nhGXsX8uBADFH3FHbKd38if8h\n-----END PRIVATE KEY-----\n",
+  "client_email": "eco-guard@eco-guard.iam.gserviceaccount.com",
+  "client_id": "109356263089113164765",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eco-guard%40eco-guard.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
